@@ -22,4 +22,5 @@
 - php artisan make:controller Api/AuthController
 - php artisan make:request LoginRequest
 - php artisan make:request SignupRequest
+- php artisan make:controller UserController —model=User —requests —resource —api
 
